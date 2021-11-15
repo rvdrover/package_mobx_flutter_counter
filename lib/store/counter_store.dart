@@ -2,6 +2,7 @@ import 'package:mobx/mobx.dart';
 
 part 'counter_store.g.dart';
 
+final Counter counter = Counter();
 class Counter = CounterStore with _$Counter;
 
 abstract class CounterStore with Store {

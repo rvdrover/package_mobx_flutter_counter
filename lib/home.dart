@@ -8,8 +8,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Counter counter = Counter();
-
     print("Widget Rebuild");
     return Scaffold(
         appBar: AppBar(
